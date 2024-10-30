@@ -1,0 +1,194 @@
+/* Estilos generales */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #ffffff;
+  border-bottom: 2px solid #ddd;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #5d7551;
+}
+
+.developers-btn {
+  background-color: #5d7551;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.developers-btn:hover {
+  background-color: #3e5338;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  background-color: #3e5338;
+  
+}
+
+.hero img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.project-info {
+  text-align: center;
+}
+
+.project-info h1 {
+  font-size: 2rem;
+  color: #222;
+  margin-bottom: 15px;
+}
+
+.project-info p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #fff;
+  max-width: 800px;
+}
+
+/* Service Section */
+.service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: #3e5338;
+  margin-top: 50px;
+}
+
+.service-content {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  gap: 50px;
+}
+
+.service-content img {
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.service-info {
+  text-align: left;
+  color: #fff;
+}
+
+.service-info h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.register-btn {
+  background-color: #87bba2;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+  transition: background-color 0.3s;
+}
+
+.register-btn:hover {
+  background-color: #6f9e81;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #fff;
+  border-top: 2px solid #ddd;
+  font-size: 0.9rem;
+}
+/* Developers Section */
+.developers {
+  text-align: center;
+  background-color: #3e5338;
+  padding: 50px;
+  color: white;
+  margin-top: 50px;
+}
+
+.developer-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.card {
+  width: 150px;
+  height: 220px;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+}
+
+.card img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.card p {
+  margin: 0;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
